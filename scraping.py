@@ -96,7 +96,7 @@ def mars_facts():
     df.set_index('Description', inplace=True)
 
     # Convert dataframe into HTML format, add bootstrap
-    return df.to_html(table class="table table-condensed")
+    return df.to_html()
 
 def hemisphere_img(browser):
     # Hemispheres
